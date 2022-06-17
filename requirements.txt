@@ -1,0 +1,9 @@
+numpy
+scipy
+pillow
+torch>=1.7
+torchvision>=0.8
+ray[tune]>=1.1
+matplotlib
+tqdm
+tifffile
