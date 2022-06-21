@@ -37,7 +37,7 @@ The datasets constituting our benchmark are the following:
 
 |      Dataset      | Classes | Imgs/Class | Trainval |  Test  | Problem Domain |   Data Type   |   Identifier   |
 |:------------------|--------:|-----------:|---------:|-------:|:---------------|:--------------|:---------------|
-| [ciFAIR-10][1]\*  |      10 |         50 |      500 | 10,000 | Natural Images | RGB (32x32)   | ```cifair10``` |
+| [ciFAIR-10][1]\*<br />  |      10 |         50 |      500 | 10,000 | Natural Images | RGB (32x32)   | ```cifair10``` |
 | [CUB][2]          |     200 |         30 |    5,994 |  5,794 | Fine-Grained   | RGB           | ```cub```      |
 | [ISIC 2018][3]\*  |       7 |         80 |      560 |  1,944 | Medical        | RGB           | ```isic2018``` |
 | [EuroSAT][4]\*    |      10 |         50 |      500 | 19,500 | Remote Sensing | Multispectral | ```eurosat```  |
