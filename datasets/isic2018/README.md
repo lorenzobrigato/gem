@@ -8,13 +8,13 @@ Paper: <https://arxiv.org/abs/1902.03368>
 ![Example images from ISIC 2018](example_images.png)
 
 
-## Obtaining the data
+## 📥 Obtaining the data
 
 The bash script `download_data.sh` provided in this directory can be used to download the actual image data and original annotations.
 Doing so will result in a folder `ISIC2018_Task3_Training_Input` containing the images and a file `ISIC2018_Task3_Training_GroundTruth.csv` with the original annotations.
 
 
-## Splits
+## 🗂️ Splits
 
 The original dataset is imbalanced, so we created the following non-exhaustive but balanced splits:
 
@@ -30,7 +30,7 @@ Note that the test sets are still imbalanced.
 Therefore, balanced accuracy should be used to assess performance instead of plain accuracy.
 
 
-## Usage
+## ⚙️ Usage
 
 This dataset can be loaded using `gem.datasets.ISIC2018Dataset`.
 The dataset identifier is `"isic2018"`.
