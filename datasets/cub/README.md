@@ -32,4 +32,4 @@ The value of `i` ranges in {0,1,2}.
 ## ⚙️ Usage
 
 This dataset can be loaded using `gem.datasets.CUBDataset`.
-The dataset identifier is `"cub"`.
+The dataset identifier is `cub`.
