@@ -34,4 +34,4 @@ The value of `i` ranges in {0,1,2}.
 
 This dataset can be loaded using `gem.datasets.ciFAIR10`.
 These data loaders will automatically download the data into the data directory if it is not present.
-The dataset identifier is `"cifair10"`.
+The dataset identifier is `cifair10`.
