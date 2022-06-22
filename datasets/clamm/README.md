@@ -9,13 +9,13 @@ Paper: <https://journal.digitalmedievalist.org/articles/10.16995/dm.61/>
 ![Example images for each class](example_images.png)
 
 
-## Obtaining the data
+## :inbox_tray: Obtaining the data
 
 The bash script `download_data.sh` provided in this directory can be used to download the actual image data.
 Doing so will result in a folder `images` containing tif gray-scale images of Latin scripts.
 
 
-## Splits
+## 🗂️ Splits
 
 We provide the following splits of the dataset for testing small-data performance:
 
@@ -30,7 +30,7 @@ The value of `i` ranges in {0,1,2}.
 Note that the test set is slightly imbalanced.
 Therefore, balanced accuracy should be used to assess performance instead of plain accuracy.
 
-## Usage
+## ⚙️ Usage
 
 This dataset can be loaded using `gem.datasets.CLaMMDataset`.
 The dataset identifier is `"clamm"`.
