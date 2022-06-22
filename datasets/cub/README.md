@@ -8,12 +8,12 @@ Paper: <https://authors.library.caltech.edu/27452/1/CUB_200_2011.pdf>
 ![Example images from CUB](http://www.vision.caltech.edu/visipedia/collage.jpg)
 
 
-## Obtaining the data
+## 📥 Obtaining the data
 
 The bash script `download_data.sh` provided in this directory can be used to download the actual image data. Doing so will result in a folder named `CUB_200_2011` with a subdirectory called `images`.
 
 
-## Splits
+## 🗂️ Splits
 
 We provide the following splits of the dataset for testing small-data performance:
 
@@ -29,7 +29,7 @@ We subdivide `trainval{i}` into `train{i}` and `val{i}`.
 The value of `i` ranges in {0,1,2}.
 
 
-## Usage
+## ⚙️ Usage
 
 This dataset can be loaded using `gem.datasets.CUBDataset`.
 The dataset identifier is `"cub"`.
