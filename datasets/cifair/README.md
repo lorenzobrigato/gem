@@ -12,7 +12,7 @@ ciFAIR Paper: <https://arxiv.org/abs/1902.00423>
 ![Example images from ciFAIR-10](example_images.png)
 
 
-## Splits
+## :card_index_dividers: Splits
 
 We provide the following splits of the ciFAIR-10 dataset for testing small-data performance:
 
@@ -30,7 +30,7 @@ We provide the following splits of the ciFAIR-10 dataset for testing small-data 
 The value of `i` ranges in {0,1,2}.
 
 
-## Usage
+## ⚙️ Usage
 
 This dataset can be loaded using `gem.datasets.ciFAIR10`.
 These data loaders will automatically download the data into the data directory if it is not present.
