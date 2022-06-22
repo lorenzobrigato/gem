@@ -33,5 +33,5 @@ Therefore, balanced accuracy should be used to assess performance instead of pla
 ## ⚙️ Usage
 
 This dataset can be loaded using `gem.datasets.CLaMMDataset`.
-The dataset identifier is `"clamm"`.
+The dataset identifier is `clamm`.
 
