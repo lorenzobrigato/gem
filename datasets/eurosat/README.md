@@ -8,13 +8,13 @@ Paper: <https://ieeexplore.ieee.org/document/8736785/>
 ![Example images for each class](example_images.png)
 
 
-## Obtaining the data
+## 📥 Obtaining the data
 
 The bash script `download_data.sh` provided in this directory can be used to download the actual image data.
 Doing so will result in two folders: `RGB` containing JPEG true color images of the RGB-channels and `allBands` containing TIFF files storing all 13 spectral bands.
 
 
-## Splits
+## 🗂️ Splits
 
 We provide the following splits of the dataset for testing small-data performance:
 
@@ -28,7 +28,7 @@ We provide the following splits of the dataset for testing small-data performanc
 The value of `i` ranges in {0,1,2}.
 
 
-## Usage
+## ⚙️ Usage
 
 This dataset can be loaded using `gem.datasets.EuroSATRGBDataset` (for RGB images) or `gem.dataset.EuroSATMultispectralDataset` (for multispectral images).
 The dataset identifiers for the two variants are `"eurosat_rgb"` and `"eurosat"`.
