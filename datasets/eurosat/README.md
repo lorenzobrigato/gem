@@ -31,7 +31,7 @@ The value of `i` ranges in {0,1,2}.
 ## ⚙️ Usage
 
 This dataset can be loaded using `gem.datasets.EuroSATRGBDataset` (for RGB images) or `gem.dataset.EuroSATMultispectralDataset` (for multispectral images).
-The dataset identifiers for the two variants are `"eurosat_rgb"` and `"eurosat"`.
+The dataset identifiers for the two variants are `eurosat_rgb` and `eurosat`.
 
 The multispectral data consists of 13 channels ("bands") with the following meanings:
 
